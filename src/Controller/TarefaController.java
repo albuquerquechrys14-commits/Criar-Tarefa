@@ -1,0 +1,13 @@
+package Controller;
+
+import Model.service.TarefaService;
+
+public class TarefaController {
+
+    private final TarefaService tarefaService;
+    public TarefaController(TarefaService tarefaService) {
+        this.tarefaService = tarefaService;
+    }
+
+    public void criarTarefa;
+}
